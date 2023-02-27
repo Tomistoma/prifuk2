@@ -8,6 +8,7 @@ module.exports = router;
 
 //getting all members
 router.get('/api', async (req, res) => {
+    console.log("Getting all members");
     try{
         const members = await Members.find();
         res.json(members)
@@ -34,6 +35,7 @@ router.get('/api/membership/:membership', getMemberByMembership, (req, res) => {
 
 //create one member
 router.post('/api/member', async (req, res) => {
+    console.log("Creating member");
 const member = new Members ({
 date: req.body.date,
 section: req.body.section,
