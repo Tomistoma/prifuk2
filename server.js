@@ -22,7 +22,7 @@ const limiter = rateLimit({
 
 const cors = require('cors');
 const corsOptions ={
-    origin:['http://localhost:3000',"dev-zbydz5ck.us.auth0.com", 'http://localhost:3001'], 
+    origin:['http://localhost:3000',"dev-zbydz5ck.us.auth0.com", 'http://localhost:3001', 'https://prifuk.onrender.com'], 
     credentials:true,
     accessControlAllowCredentials:true,
     optionSuccessStatus:200,
