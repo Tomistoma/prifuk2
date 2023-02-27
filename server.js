@@ -43,14 +43,6 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
-/*
-app.use(express.static('C:/Users/tomas/Coding/prifukDeploy/backend/build/build'));
-
-
-app.get('/*', (req, res) => {
-  res.sendFile('C:/Users/tomas/Coding/prifukDeploy/backend/build/index.html');
-});
-*/
 
 
 app.listen(3001, () => {
