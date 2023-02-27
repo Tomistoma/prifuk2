@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[202],{7202:function(e,n,t){e.exports=t.p+"static/media/backgroundCut.fad9dbd65002c935c7f2.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[853],{3853:function(e,n,t){e.exports=t.p+"static/media/IGPost1.0b485376319240b6a8f4.png"}}]);

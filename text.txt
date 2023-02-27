@@ -1,0 +1,2 @@
+login: prifuk-usergroup@natur.cuni.cz
+Heslo: NasSkvelySpolek

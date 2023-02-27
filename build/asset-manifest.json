@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.df2d4681.js",
+    "static/js/853.9c4e27e4.chunk.js": "/static/js/853.9c4e27e4.chunk.js",
+    "static/js/636.ec74b1c4.chunk.js": "/static/js/636.ec74b1c4.chunk.js",
+    "static/js/250.003a7abe.chunk.js": "/static/js/250.003a7abe.chunk.js",
+    "static/js/938.d9735d5a.chunk.js": "/static/js/938.d9735d5a.chunk.js",
+    "static/js/919.b53ca0ad.chunk.js": "/static/js/919.b53ca0ad.chunk.js",
+    "static/js/537.ff0fe0e6.chunk.js": "/static/js/537.ff0fe0e6.chunk.js",
+    "static/js/202.b93b003a.chunk.js": "/static/js/202.b93b003a.chunk.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/background.jpg": "/static/media/background.c259112301820f0077a8.jpg",
+    "static/media/backgr.jpg": "/static/media/backgr.ce89e44a9be937c59bd4.jpg",
+    "static/media/backgroundCut.jpg": "/static/media/backgroundCut.fad9dbd65002c935c7f2.jpg",
+    "static/media/navrh2.png": "/static/media/navrh2.c57d3c9f649c92384ed1.png",
+    "static/media/backgr1.jpg": "/static/media/backgr1.b2e5ca4fd9dc5602588a.jpg",
+    "static/media/IMG_20160515_065511.jpg": "/static/media/IMG_20160515_065511.a4ca6c090a9e886e2eb3.jpg",
+    "static/media/logo.png": "/static/media/logo.23fbe30bb453639e65a7.png",
+    "static/media/logo.jpg": "/static/media/logo.b688b17eb195a5ef1be1.jpg",
+    "static/media/IGPost1.png": "/static/media/IGPost1.0b485376319240b6a8f4.png",
+    "index.html": "/index.html",
+    "main.df2d4681.js.map": "/static/js/main.df2d4681.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.df2d4681.js"
+  ]
+}
