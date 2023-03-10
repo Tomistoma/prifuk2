@@ -14,7 +14,7 @@ router.post('/api/image', upload.single('image'), function (req, res) {
     const file = req.file;
     console.log(file.path)
     console.log(file.originalname)
-    fs.rename(file.path, '../frontend/src/media/Events/'+file.originalname, function(err) {
+    fs.rename(file.path, '../Image/'+file.originalname, function(err) {
       if (err) {
         console.log(err);
         res.status(500).send('Error occurred while saving the image');
