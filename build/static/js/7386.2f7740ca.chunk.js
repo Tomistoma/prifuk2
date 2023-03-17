@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[7386],{7386:function(e,n,f){e.exports=f.p+"static/media/rename.1de38171affb0b59fb37.py"}}]);

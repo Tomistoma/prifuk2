@@ -4,6 +4,7 @@ const express = require('express');
 const app = express();
 const mongoose = require("mongoose");
 const path = require('path');
+const cors = require('cors');
 
 
 
@@ -20,9 +21,9 @@ const limiter = rateLimit({
   });
   app.use(limiter);
 
-const cors = require('cors');
+
 const corsOptions ={
-    origin:['https://prifuk.onrender.com', "http://localhost:3001", "http://localhost:3000"], 
+    origin:['http://localhost:3000',"dev-zbydz5ck.us.auth0.com", 'http://localhost:3001', 'https://prifuk.onrender.com'], 
     credentials:true,
     accessControlAllowCredentials:true,
     optionSuccessStatus:200,
@@ -30,12 +31,24 @@ const corsOptions ={
 }
 
 app.use(cors(corsOptions));
+/*
+app.use(cors());
+app.use(function (req, res, next){
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Methods",
+    "GET, HEAD, OPTIONS, POST, PUT, DELETE"
+  );
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  next();
+})*/
 const posts = require('./routes/posts');
 app.use('/posts/', posts);
 const members = require('./routes/members');
 app.use('/members/', members);
-const ideas = require('./routes/ideas');
-app.use('/ideas/', ideas);
 
 
 
