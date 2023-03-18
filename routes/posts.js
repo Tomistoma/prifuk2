@@ -3,9 +3,8 @@ const router = express.Router();
 const Posts = require('../models/post');
 var fs = require('fs');
 const multer = require('multer');
-const upload = multer({dest: 'images/'})
-const appRoot = require('app-root-path');
-
+const upload = multer({dest: '/opt/render/project/src/images/'})
+//const appRoot = require('app-root-path');
 module.exports = router;
 
 
@@ -15,7 +14,7 @@ router.post('/api/image', upload.single('image'), function (req, res) {
     const file = req.file;
     console.log(file.path)
     console.log(file.originalname)
-    fs.rename(file.path, /*appRoot+*/'/backend/images/'+file.originalname, function(err) {
+    fs.rename(file.path, '/opt/render/project/src/images/'+file.originalname, function(err) {
       if (err) {
         console.log(err);
         res.status(500).send('Error occurred while saving the image');
