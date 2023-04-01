@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[8145],{8145:function(e,n,t){e.exports=t.p+"static/media/57.277c9a277bc0ed51a263.jpg"}}]);
